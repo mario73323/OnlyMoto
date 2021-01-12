@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos_c.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="home.html" class="navbar-brand ">ONLY MOTO</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#t">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="t">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                        <li class="nav-item"><a class="nav-link pr-5" href="tienda.html">TIENDA</a></li>
+                        <li class="nav-item"><a class="nav-link pr-5" href="#">CONTACTO</a></li>
+                        <li class="nav-item"><a class="nav-link pr-5" href="#">QUIENES SOMOS</a></li>
+                        <li class="nav-item"><a class="nav-link pr-5" href="carrito.html">CARRITO</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="inicio_sesion.html"><span class="">INICIAR SESIÓN</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contenedor-registro">
+        <div class="contenedor">
+            <div class="header">
+                <h2>Formulario de Registro</h2>
+                <p class="parrafo">Registrate para poder realizar la compra de tus bicicletas y accesorios preferidos.</p>
+                <p class="parrafo">Todos los campos son obligatorios a menos que se indique lo contrario.</p>
+            </div>
+            <form  id="formulario" class="formulario" onsubmit="return validarinputs()">
+                <div class="etiqueta">
+                    <label for="nombre">NOMBRES</label></br>
+                    <input type="text" placeholder="Nombres" id="nombres">
+                </div>
+                <div class="etiqueta">
+                    <label for="apellido">APELLIDOS</label></br>
+                    <input type="text" placeholder="Apellidos" id="apellidos">
+                </div>
+                <div class="etiqueta">
+                    <label for="correo">EMAIL</label></br>
+                    <input type="email" placeholder="Correo" id="correos">
+                </div>
+                <div class="etiqueta">
+                    <label for="contrasena">CONTRASEÑA</label></br>
+                    <input type="password" placeholder="Contraseña" id="clave">
+                </div>
+                <div class="etiqueta">
+                    <label for="contrasena2">CONFIRMAR CONTRASEÑA</label></br>
+                    <input type="password" placeholder="Confirmar contraseña" id="conf-clave">
+                </div>
+                <div class="terminos">
+                    <input type="checkbox"  name="check">
+                    <label class="check_class">Acepto los términos y condiciones de OnlyMoto</label></br>
+                </div>
+    
+                <div class="button">
+                    <input type="submit" name="Enviar" id="boton_enviar" onclick="">
+                </div>
+    
+                <p>¿Ya tienes una cuenta?<a class="link" href="inicio_sesion.html">Inicia sesion</a></p>
+            </form>
+        </div>
+    </div>
+    <footer class="bg-dark">
+        <p class="text-white text-center">&copy; 2021 ONLY MOTO</p>
+    </footer>
+    <script src="validaciones.js"></script>
+</body>
+</html>

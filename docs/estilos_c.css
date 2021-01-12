@@ -1,0 +1,79 @@
+    * {
+    box-sizing: border-box;
+    }
+    .contenedor-registro{
+    background-color: white;
+    font-family: Helvetica,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+   }
+  
+   .parrafo{
+       text-align: justify;
+       font-size: 18px;
+       font-family: Helvetica;
+   }
+   .contenedor {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 40%;
+    max-width: 100%;
+    min-height: auto;
+    align-items: center;
+
+   }
+   .header {
+    border-bottom: 1px solid white;
+    background-color: white;
+    padding: 10px 40px;
+   }
+   .header h2 {
+    margin: 20px 0;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+   }
+   .formulario {
+    padding: 10px 40px;
+   }
+   .etiqueta {
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    position: relative;
+   }
+   
+   .etiqueta label {
+    display: inline-block;
+    margin-bottom: 5px;
+
+   }
+   .etiqueta input {
+    height:40px;
+    width: 600px;
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    padding:10px;
+    margin-bottom:30px;
+    align-items: center;
+    min-width: 20%;
+    max-width: 100%;
+
+    }
+    .button input{
+    background-color: black;
+    border: 3px solid red;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 20px;
+    height:40px;
+    width: 100px;
+    }
